@@ -44,7 +44,9 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
-
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#media') Media
+                        
         // Page Content
         .container-fluid.p-0
 
@@ -93,13 +95,10 @@ html(lang='en')
                             .subheading.mb-3 iHeartMedia
                             ul
                                 li Led project for calculating royalties on a Big Data tech stack.
+                                li Acting principal engineer for department and interviewed all candidates for teams.
                                 li Implemented web service integrations between multiple platforms.
-                                li Built-out custom monitoring capabilities for cloud and on-premise resources.
-                                li Provided in-depth analytics of logs over multiple platforms.
-                                li Designed test cases, code coverage and static code analysis as well as peer reviews.
+                                li Built-out custom monitoring capabilities and log analytics.
                                 li Automated pipelines for build, test, and deployment on a variety of tech stacks.
-                                li Interviewed engineering and business candidates for team.
-                                li Maintained operations of servers in production and test.
                                 li Setup infrastructure as code for deployments and maintenance.
                                 li Cross-trained other depts on monitoring, operations, and development.
                         .flex-shrink-0
@@ -191,12 +190,6 @@ html(lang='en')
                     h2.mb-5 Interests
                     p
                         | I'm a enthusiastic game developer/hacker in my free time. At the moment, I'm working on a new C++ game using the latest Unreal Engine. I also created an aimbot earlier this year that used Java to embed pixels into the game's artwork and track movement through screen caps.
-                    div.media
-                        div.media-body.align-self-center
-                            h5.mr-3
-                                | Prototype 2D Spaceship MMO (2018)
-                        div.embed-responsive.embed-responsive-16by9
-                            iframe.embed-responsive-item(src="https://streamable.com/e/mrsi8l" allowfullscreen)
                     p.mt-3
                         | For the past two years, I've competed in hack-a-thons. I've synthesized artificial voices for targeted advertising and created a custom crypto currency based on media usage. The AI voice won best engineering.
                         i.fas.fa-trophy
@@ -204,6 +197,23 @@ html(lang='en')
                         | When taking a break from development, I enjoy spending time with my family, creating 3D artwork in Blender, and consuming all forms of media.
 
             hr.m-0
+            
+            // Media
+            section#media.resume-section
+                .resume-section-content
+                    h2.mb-5 Media
+                    ul
+                        li.media.mb-4
+                            img.mr-5.w-50(src='assets/img/stump-wip.png', alt='Raining Stump')
+                            div.media-body
+                                h5.mt-0.mb-1 Rainy stump (2020)
+                                | After years of focusing soley on development, I decided to embrace my artistic side.
+                        li.media
+                            div.mr-5.w-50.embed-responsive.embed-responsive-16by9
+                                iframe.embed-responsive-item(src="https://streamable.com/e/mrsi8l" allowfullscreen)
+                            div.media-body
+                                h5.mt-0.mb-1 2D Spaceship MMO (2018)
+                                | Used port of Box2D with LiquidFun for physics and Netty with Protobuf for serialization.
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
